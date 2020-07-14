@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First View!!</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>This HTML code is inside of a '.erb' file in the views directory, where it belongs.</p>
+    </body>
+</html>
+# we just need to update our controller to render the index.erb file at the "/" route. 
+# most web frameworks include a templating engine that allows us to render HTML content from a different file.
+# We call these files "views."
+# Sinatra uses a templating engine called ERB, or Embedded RuBy. Our view files will use the extension .erb and
+# we can write HTML code there just like in a plain old .html file.
+# Sinatra is also configured by default to look for our .erb files in a directory called views.
